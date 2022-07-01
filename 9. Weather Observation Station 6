@@ -1,0 +1,12 @@
+Problem: Query the list of CITY names starting with vowels (i.e., a, e, i, o, or u) from STATION. Your result cannot contain duplicates.
+
+Script: 
+
+
+SELECT DISTINCT City FROM Station
+
+Where City like "A%"
+AND City like "E%"
+AND City like "I%"
+AND City Like "O%"
+AND City Like "U%";
